@@ -1,0 +1,10 @@
+django
+django-environ
+django-cors-headers
+djangorestframework
+pillow
+django-storages
+django-ckeditor
+# psycopg2
+psycopg2-binary
+whitenoise
