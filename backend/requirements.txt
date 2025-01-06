@@ -8,3 +8,5 @@ django-ckeditor
 # psycopg2
 psycopg2-binary
 whitenoise
+dj_database_url
+coreapi
