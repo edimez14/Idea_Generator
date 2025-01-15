@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const DEBUG = true;
+const DEBUG = false;
 const api = axios.create({
     baseURL: !DEBUG ? 'https://idea-generator-pb5d.onrender.com/api/' : 'http://localhost:8000/api/',
 });
