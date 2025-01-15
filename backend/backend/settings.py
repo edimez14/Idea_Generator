@@ -33,6 +33,7 @@ DJANGO_APPS = [
 ]
 
 PROJECTS_APPS = [
+    'apps.idea_generator',
 ]
 
 THIRD_PARTY_APPS = [

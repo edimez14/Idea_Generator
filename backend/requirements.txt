@@ -10,3 +10,5 @@ psycopg2-binary
 whitenoise
 dj_database_url
 coreapi
+transformers
+torch
