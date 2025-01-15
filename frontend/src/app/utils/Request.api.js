@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const DEBUG = true;
 const api = axios.create({
-    baseURL: !DEBUG ? 'render.com' : 'http://localhost:8000/api/',
+    baseURL: !DEBUG ? 'https://idea-generator-pb5d.onrender.com/api/' : 'http://localhost:8000/api/',
 });
 
 export const BackendRequest = async (typeRequest, url, prompt) => {
