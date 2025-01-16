@@ -1,7 +1,7 @@
 "use client";
 
 import {Button} from "@nextui-org/react";
-import { CiCirclePlus } from "react-icons/ci";
+// import { CiCirclePlus } from "react-icons/ci";
 
 export default function Categories({ onSelectCategory }) {
     const all_categories = {
@@ -26,9 +26,9 @@ export default function Categories({ onSelectCategory }) {
                         {category}
                     </Button>
                 ))}
-                <Button isIconOnly color="primary" className="flex items-center p-0 rounded-lg text-2xl"> 
+                {/* <Button isIconOnly color="primary" className="flex items-center p-0 rounded-lg text-2xl"> 
                     <CiCirclePlus />
-                </Button>
+                </Button> */}
             </div>
         </div>
     );
