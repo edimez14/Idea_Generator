@@ -25,7 +25,7 @@ export default function Footer() {
                         <LinkButton
                             icon={<FaGithub />}
                             text="Github"
-                            url="https://github.com/edimez14/password_generator/tree/web_version"
+                            url="https://github.com/edimez14/Idea_Generator"
                             sm={true}
                         />
                     </div>
