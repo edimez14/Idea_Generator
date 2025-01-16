@@ -32,7 +32,7 @@ export default function Content() {
     }
 
     return (
-        <div className="grid gap-4 justify-center items-center max-w-[300px] break-words p-10 m-10">
+        <div className="grid gap-4 justify-center items-center w-full break-words p-0 m-0 sm:p-10 sm:m-10">
             <Categories onSelectCategory={(category) => setSelectCategory(category)}/>
             <AIResponse prompt={message} isLoading={isLoading} />
             <GenerateButton onClick={test} />

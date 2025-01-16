@@ -14,14 +14,13 @@ export default function Categories({ onSelectCategory }) {
 
     return (
         <div className="flex flex-col gap-2">
-            <h1 className="text-2xl font-bold pb-2">Tema de la idea:</h1>
-            <div className="flex gap-2">
+            <h1 className="text-xl sm:text-2xl font-bold pb-2">Tema de la idea:</h1>
+            <div className="flex flex-wrap gap-2">
                 {Object.entries(all_categories).map(([category, color], index, array) => (
                     <Button
                         key={category}
                         color={color}
                         variant="ghost"
-                        className={index !== array.length - 1 ? "mr-2" : ""}
                         onPress={() => onSelectCategory(category)}
                     >
                         {category}
